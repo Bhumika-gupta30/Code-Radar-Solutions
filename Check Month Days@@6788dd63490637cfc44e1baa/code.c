@@ -19,8 +19,11 @@ int main() {
         case 11:
             printf("30");
             break;
-        default:
+        case 2:
             printf("28");
+            break;
+        default:
+            printf("Invalid month");
             break;
     }
     return 0;
