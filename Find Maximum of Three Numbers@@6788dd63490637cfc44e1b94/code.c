@@ -3,16 +3,16 @@
 int main() {
     int x,y,z;
     scanf("%d %d %d", &x,&y,&z);
-    switch(x) {
-        case x>y:
-        case x>z:
+    if(x>y>z) {
         printf("%d\n", x);
-        case y>z:
-        case y>x:
+    }
+    else if(y>x>z) {
         printf("%d\n", y);
-        case z>x:
-        case z>y:
+    }
+    else {
         printf("%d\n", z);
+    }
+    return 0;
     }
     return 0;
 }
