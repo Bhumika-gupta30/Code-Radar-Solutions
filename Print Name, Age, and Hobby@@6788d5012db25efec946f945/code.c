@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char str1[100];
-    scanf("%s", str1);
-    printf("Name: %s", str1);
-    int x;
-    scanf("%d", &x);
-    printf("Age: %d\n", x);
-    char str2[100];
-    scanf("%s", str2);
-    printf("Hobby: %s", str2);
+    char name[50], hobby[50];
+    int age;
+    scanf("%s", name);
+    scanf("%d", &age);
+    scanf("%s", hobby);
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Hobby: $s\n", hobby);
 
     return 0;
 }
