@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <char.h>
 
 int main() {
      char x;
