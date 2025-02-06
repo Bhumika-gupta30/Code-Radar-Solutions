@@ -4,10 +4,10 @@ int main() {
     int x;
     scanf("%d",&x);
     if(x>=60) {
-        printf("Eligible")
+        printf("Eligible");
     }
     else {
-        printf("Not Eligible")
+        printf("Not Eligible");
     }
     return 0;
 }
