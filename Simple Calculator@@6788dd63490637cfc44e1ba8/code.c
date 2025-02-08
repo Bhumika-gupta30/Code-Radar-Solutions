@@ -6,16 +6,16 @@ int main() {
     scanf("%d",&x);
     scanf("%c",&sign);
     switch(sign) {
-        case '+':
+        case +:
             printf("%d\n",x+y);
             break;
-        case '-':
+        case -:
             printf("%d\n",x-y);
             break;
-        case '*';
+        case *:
             printf("%d\n",x*y);
             break;
-        case '/':
+        case /:
             printf("%d\n",x/y);
             break;
         default:
