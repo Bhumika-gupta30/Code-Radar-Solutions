@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool isPrime(int num) {
-    if (num <= 1) {
+bool isPrime(int x) {
+    if (x <= 1) {
         return false;
     }
-    for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0) {
+    for (int i = 2; i * i <= x; i++) {
+        if (x % i == 0) {
             return false;
         }
     }
@@ -14,15 +14,12 @@ bool isPrime(int num) {
 }
 
 int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (isPrime(num)) {
-        printf("%d is a prime number.\n", num);
+    int x;
+    scanf("%d", &x);
+    if (isPrime(x)) {
+        printf("Prime");
     } else {
-        printf("%d is not a prime number.\n", num);
+        printf("Not Prime");
     }
-
     return 0;
 }
