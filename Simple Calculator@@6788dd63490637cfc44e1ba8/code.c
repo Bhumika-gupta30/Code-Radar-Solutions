@@ -3,7 +3,6 @@
 int main() {
     int x,y;
     char sign;
-    char opt;
     scanf("%d",&x);
     scanf("%c",&sign);
     switch(sign) {
