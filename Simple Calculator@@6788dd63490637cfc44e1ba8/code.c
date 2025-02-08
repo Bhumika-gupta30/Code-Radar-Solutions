@@ -23,7 +23,7 @@ int main() {
                 printf("%d\n", x / y);
             } 
             else {
-                printf("Division by zero error\n");
+                printf("error");
             }
             break;
         default:
