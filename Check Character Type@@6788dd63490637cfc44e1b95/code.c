@@ -3,8 +3,8 @@
 int main() {
     int x;
     char Char;
-    scanf("%d",&x);
-    scanf("%c",&Char);
+    scanf("%d", &x);
+    scanf("%c", &Char);
     if(isdigit(x)) {
         printf("Digit");
     }
